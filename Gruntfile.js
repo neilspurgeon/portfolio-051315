@@ -32,7 +32,7 @@ module.exports = function(grunt) {
       },
       build: {
         files: {
-          'dist/js/magic.min.js': 'src/js/magic.js'
+          'dist/js/app.min.js': 'src/js/main.js'
         }
       }
     },
@@ -44,7 +44,7 @@ module.exports = function(grunt) {
         },
       dist: {
         files: {
-          'dist/css/pretty.css': 'src/css/pretty.scss'
+          'dist/css/pretty.css': 'src/css/main.scss'
         }
       }
     },
@@ -56,7 +56,7 @@ module.exports = function(grunt) {
       },
       build: {
         files: {
-          'dist/css/style.min.css': 'src/css/style.css'
+          'dist/css/style.min.css': 'dist/css/pretty.css'
         }
       }
     },

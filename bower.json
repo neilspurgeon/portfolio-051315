@@ -1,0 +1,19 @@
+{
+  "name": "portfolio051315",
+  "version": "0.0.0",
+  "homepage": "https://github.com/neilspurgeon/portfolio-051315",
+  "authors": [
+    "Neil Spurgeon <neilspurgeon@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}

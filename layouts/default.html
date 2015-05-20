@@ -1,0 +1,24 @@
+<!-- DEFAULT TEMPLATE
+main html structure that loads in dynamic content and pages
+This page doesn't reload. Content/pages are loaded with ajax -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{{ _site_name }}</title>
+	<script type="text/javascript" src="_themes/portfolio051315/bower_components/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="_themes/portfolio051315/dist/js/app.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="_themes/portfolio051315/dist/css/style.min.css">
+</head>
+<body>
+	<nav>
+		<a href="#" id="info" class="nav-link">info</a>
+		<a href="#" id="projects" class="nav-link">projects</a>
+	</nav>
+	<section id="main-content">
+		{{ layout_content }}
+		<!-- append ajax loaded content here -->
+	</section>
+
+</body>
+</html>
